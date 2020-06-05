@@ -1,0 +1,381 @@
+@font-face{
+    font-family: 'Font Awesome';
+    src: url(/fonts/fontawesome-webfont.ttf);
+    src: url(/fonts/fontawesome-webfont.eot);
+    src: url(/fonts/fontawesome-webfont.woff);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* BACKGROUND IMAGES & COVERS */
+
+.main-box{
+    background-size: cover;
+    background-image: url(./images/back-cover-photo.jpg);
+}
+
+/* Main Heading */
+
+.main-heading h3{
+    text-shadow: 2px 2px 0 black;
+}
+
+/* BUTTONS */
+
+.my-buttons a{
+    margin-right: 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    color: #057dff;
+}
+
+.my-buttons a{
+    text-decoration: none;
+}
+
+/* Navigation Bar */
+
+.my-rowbar{
+    width: 100%;
+}
+
+.my-navigation{
+    padding: 5px 10px 5px 10px;
+    background-color: rgba(255, 255, 255, 1.0);
+}
+
+a.navi-heading{
+    margin-left: 30px;
+    font-size: 28px;
+    color: black;
+}
+
+a.navi-heading:hover{
+    margin-left: 30px;
+    font-size: 28px;
+    color: #057dff;
+}
+
+.my-navi-bar ul li a{
+    color: black;
+    padding: 5px 20px 5px 20px !important;
+    margin: 5px 10px 5px 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.my-navi-bar ul li a:hover{
+    color: white;
+    padding: 5px 20px 5px 20px !important;
+    margin: 5px 10px 5px 10px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 2px solid #01002e;
+    border-radius: 20px;
+}
+
+.my-nav-button{
+    color: black;
+    margin-left: 30px;
+    padding: 5px 8px;
+    border: 1px solid black;
+}
+
+/* FOOTER */
+
+.my-info-footer{
+    color: white;
+    background-color: black;
+}
+
+.footer-menu ul{
+    list-style: inside;
+}
+
+.footer-menu ul li{
+    margin-bottom: 10px;
+}
+
+.footer-menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* SOCIAL MEDIA ICONS */
+
+.social-icons ul{
+    list-style: none;
+}
+
+.social-icons ul li{
+    display: inline;
+    margin-right: 15px;
+}
+
+.social-icons ul li a{
+    text-decoration: none;
+}
+
+.social-icons ul li a i.f-icon{
+    padding: 4px 8px;
+}
+
+.social-icons ul li a i.i-icon{
+    padding: 4px 5px;
+}
+
+.social-icons ul li a i.t-icon{
+    padding: 4px 5px;
+}
+
+.social-icons ul li a i{
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+    font-family: 'Font Awesome';
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.social-icons ul li a i:hover{
+    color: #057dff;
+    border: 1px solid #057dff;
+}
+
+/* BACK TO TOP BUTTON */
+
+#myBtn{
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 50px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(75, 75, 75); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+  
+#myBtn:hover{
+    color: black;
+    font-weight: bold;
+    background-color: white; /* Add a dark-grey background on hover */
+}
+  
+
+
+/* MY CAROUSEL PHOTOS OF MAIN PAGE */
+
+.my-carousel-photo-div{
+    height: 450px;
+    width: 350px;
+    padding: 20px 20px 20px 20px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* QUOTES BOX */
+
+.my-quotes-box{
+    color: white;
+    background-color: #01002e;
+}
+
+/* FACEBOOK PAGE COVER */
+
+.my-fb-image-cover{
+    background-color: #01002e;
+}
+
+
+/* NOVELS */
+
+.card{
+    border: 1px solid black !important;
+}
+
+
+/* NOVELS PAGE */
+
+.my-novel-card{
+    height: 380px;
+    width: 240px;
+}
+
+.my-novel-card-body{
+    padding: 0 !important;
+}
+
+.my-novel-card-body h5{
+    font-size: 15px;
+    margin-top: 5px !important;
+    padding: 0 !important;
+}
+
+.my-novel-card-body p{
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding: 0 !important;
+}
+
+.my-novels-page-content-box{
+    background-size: cover;
+    background-image: url(./images/Novel-Lovers-Cover.jpg);
+}
+
+.novels-page-my-popular-heading h1{
+    color: black;
+}
+
+.my-novels-page-carousel-photo-div{
+    height: 450px;
+    width: 350px;
+    padding: 12px 12px 12px 12px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.my-novel-author-name-div{
+    padding: 3px 20px 3px 20px;
+    background-color: rgba(128, 128, 128, 0.6);
+}
+
+
+/* ABOUT PAGE */
+
+.about-page-main-box{
+    padding-bottom: 100px;
+    background-size: cover;
+    background-image: url(./images/back-cover-photo.jpg);
+}
+
+.my-about-page-div{
+    background-color: white;
+}
+
+.my-about-heading{
+    color: black;
+}
+
+.my-about-details{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.my-about-details p{
+    color: black;
+}
+
+.my-about-details blockquote{
+    color: rgb(1, 0, 46);
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+/* CONTACT PAGE */
+
+.contact-page-main-box{
+    min-height: calc(100vh - 63px - 36px);
+}
+
+.my-contact-page-cont{
+    margin-top: 10%;
+}
+
+.contact-page-my-social-icons{
+    font-family: 'Font Awesome';
+}
+
+.contact-page-my-social-icons ul{
+    list-style: none;
+}
+
+.contact-page-my-social-icons ul li{
+    margin-left: 20px;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.contact-page-my-social-icons ul li a{
+    text-decoration: none;
+}
+
+.contact-page-my-social-icons ul li a:hover{
+    text-decoration: none;
+}
+
+.contact-page-my-social-icons ul i{
+    color: white;
+    font-style: normal;
+    font-size: 30px;
+    background-color: rgba(122, 122, 122, 0.5);
+}
+
+.contact-page-my-social-icons ul li a i:hover{
+    color: black;
+    background-color: white;
+}
+
+.f-contact-icon{
+    border-radius: 50%;
+    padding: 15px 22px 15px 22px;
+}
+
+.i-contact-icon{
+    border-radius: 50%;
+    padding: 15px 18px 15px 18px;
+}
+
+.t-contact-icon{
+    border-radius: 50%;
+    padding: 15px 17px 15px 17px;
+}
+
+
+
+/* REQUEST PAGE */
+
+.my-request-heading{
+    color: white;
+}
+
+.my-request-details{
+    color: white;
+}
+
+.my-request-form{
+    color: white;
+    padding: 20px 20px 20px 20px;
+    border: 2px solid white;
+}
+
+.my-request-form label{
+    margin-right: 15px;
+}
+
+.my-submit-button{
+    border-radius: 10px;
+    padding: 2px 10px 2px 10px;
+}
+
+.my-reset-button{
+    border-radius: 10px;
+    padding: 2px 10px 2px 10px;
+}
+
+.my-submit-button , .my-reset-button{
+    margin-right: 10px;
+}
